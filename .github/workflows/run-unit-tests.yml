@@ -1,6 +1,6 @@
-name: Run test suite
+name: Run unit tests
 
-on: push
+on: [push, pull_request]
 
 jobs:
   build:
