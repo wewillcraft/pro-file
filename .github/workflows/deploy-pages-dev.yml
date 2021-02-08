@@ -43,6 +43,8 @@ jobs:
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
+        env:
+          REACT_APP_GOOGLE_CLIENT_ID: ${{ secrets.PRO_FILE_DEV_REACT_APP_GOOGLE_CLIENT_ID }}
         with:
           deploy_key: ${{ secrets.PRO_FILE_PAGES_DEPLOY_KEY }}
           publish_dir: ./build
