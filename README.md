@@ -10,6 +10,12 @@ Build your own Professional Profile.
 # install dependencies
 yarn install
 
+# copy env from template
+cp .env.template .env
+
+# update env with your own values
+open .env
+
 # start development server
 yarn start
 ```
