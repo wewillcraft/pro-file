@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages (dev)
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "15"
+
+      - name: install dependencies
+        run: yarn install
+
+      - name: build
+        run: yarn build
+
+      - name: add cname
+        run: echo "pro-file.willcraft.software" > build/CNAME
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.PRO_FILE_PAGES_DEPLOY_KEY }}
+          publish_dir: ./build
+          publish_branch: pages-dev
+          keep_files: false
+          allow_empty_commit: true
