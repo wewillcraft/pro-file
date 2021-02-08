@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Nap Joseph Calub
+    Software Engineer
+    https://napjose.ph
+    https://keybase.io/njncalub
+
+# THANKS
+
+    Google
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    React
+    Tailwind CSS
+    Git, GitHub
