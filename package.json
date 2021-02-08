@@ -1,0 +1,64 @@
+{
+  "name": "pro-file",
+  "description": "Professional profile builder.",
+  "version": "0.0.1",
+  "author": {
+    "name": "We Will Craft",
+    "email": "we@willcraft.software",
+    "url": "https://willcraft.software"
+  },
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "autoprefixer": "^9",
+    "node-sass": "^5.0.0",
+    "postcss": "^7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://pro-file.willcraft.software",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wewillcraft/pro-file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wewillcraft/pro-file/issues"
+  },
+  "license": "MIT"
+}
