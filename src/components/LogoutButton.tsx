@@ -20,7 +20,7 @@ export function LogoutButton() {
   return (
     <button
       onClick={signOut}
-      className="bg-gray-700 rounded-xl py-2 px-4 inline-flex text-white"
+      className="bg-gray-200 rounded-xl py-2 px-4 inline-flex text-gray-800 hover:bg-gray-400"
     >
       <span>Sign out</span>
     </button>

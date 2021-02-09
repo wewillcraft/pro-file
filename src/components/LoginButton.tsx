@@ -4,6 +4,8 @@ import {
   GoogleLoginResponseOffline,
 } from "react-google-login";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { refreshTokenSetup } from "../utils/refreshTokenSetup";
 
 const clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID || "";
@@ -47,9 +49,12 @@ export function LoginButton() {
   return (
     <button
       onClick={signIn}
-      className="bg-gray-700 rounded-xl py-2 px-4 inline-flex text-white"
+      className="bg-gray-200 rounded-xl py-2 px-4 inline-flex text-gray-800 hover:bg-gray-400"
     >
-      <span>Sign in with Google</span>
+      <span>
+        <FontAwesomeIcon icon={["fab", "google"]} className="mr-2" />
+        Sign in with Google
+      </span>
     </button>
   );
 }
