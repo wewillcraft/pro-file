@@ -1,6 +1,7 @@
 # Pro-file
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wewillcraft/pro-file)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 Build your own Professional Profile.
 
@@ -18,6 +19,13 @@ open .env
 
 # start development server
 yarn start
+
+# add some changes to staging
+touch something.txt
+git add .
+
+# commit using commitizen
+yarn cz
 ```
 
 ## Contributing
