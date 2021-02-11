@@ -6,7 +6,7 @@ import {
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { refreshTokenSetup } from "../utils/refreshTokenSetup";
+import { refreshTokenSetup } from "../utils/auth/refreshTokenSetup";
 
 const clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID || "";
 
@@ -24,7 +24,7 @@ const isOffline = (res: any): res is GoogleLoginResponseOffline => {
   return false;
 };
 
-export function LoginButton() {
+export const LoginButton = () => {
   const onSuccess = (res: GoogleLoginResponse | GoogleLoginResponseOffline) => {
     if (isOnline(res)) {
       console.log("Login success: currentUser:", res.profileObj);
@@ -57,4 +57,4 @@ export function LoginButton() {
       </span>
     </button>
   );
-}
+};
