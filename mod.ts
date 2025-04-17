@@ -14,10 +14,8 @@ export default function (options: Partial<Options> = {}) {
       "_includes/css/reset.css",
       "_includes/layouts/base.vto",
       "uploads/favicon.svg",
-      "_data/metas.yml",
       "404.md",
       "index.vto",
-      "styles.css",
     ];
 
     for (const file of files) {

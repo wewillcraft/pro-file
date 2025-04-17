@@ -1,7 +1,3 @@
-@import "css/reset.css";
-
-body {
-  max-inline-size: 60ch;
-  margin-inline: auto;
-  padding-inline: 1rem;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

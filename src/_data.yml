@@ -1,9 +1,5 @@
-lang: en
-
-metas:
-  site: Lume site
-  twitter: ""
-  fediverse: ""
-  icon: /uploads/favicon.svg
-  lang: =lang
-  generator: true
+layout: layouts/base.vto
+site:
+  lang: en
+  title: pro-file
+  description: A simple static site generator

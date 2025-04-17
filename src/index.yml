@@ -1,0 +1,96 @@
+site:
+  lang: en
+  title: "Curriculum Vitae of Juan dela Cruz"
+  description: "Professional profile of Juan dela Cruz, Software Engineer"
+
+profile:
+  name: "Juan dela Cruz"
+  title: "Software Engineer"
+  summary: "Experienced full-stack developer with a strong background in modern JavaScript frameworks and cloud-native applications. Passionate about clean code, developer tooling, and scalable software."
+
+  contact:
+    - icon: envelope
+      icon_library: fontawesome
+      icon_variant: solid
+      text: juan.delacruz@example.com
+      link: mailto:juan.delacruz@example.com
+
+    - icon: phone
+      icon_library: fontawesome
+      icon_variant: solid
+      text: +63 912 345 6789
+      link: tel:+639123456789
+
+    - icon: globe
+      icon_library: fontawesome
+      icon_variant: solid
+      text: juandelacruz.dev
+      link: https://juandelacruz.dev
+
+    - icon: linkedin
+      icon_library: fontawesome
+      icon_variant: brands
+      text: linkedin.com/in/juandelacruz
+      link: https://linkedin.com/in/juandelacruz
+
+    - icon: github
+      icon_library: fontawesome
+      icon_variant: brands
+      text: github.com/juandelacruz
+      link: https://github.com/juandelacruz
+
+sections:
+  - type: experience
+    title: "Work Experience"
+    items:
+      - role: "Software Engineer"
+        company: "ABC Corp"
+        location: "Makati, Philippines"
+        period: "2020 – Present"
+        description: "Built and maintained scalable web applications using React, Node.js, and PostgreSQL. Led frontend modernization using TypeScript and integrated CI/CD pipelines."
+      - role: "Junior Developer"
+        company: "XYZ Inc."
+        location: "Taguig, Philippines"
+        period: "2018 – 2020"
+        description: "Assisted in building mobile apps using Flutter and Firebase. Contributed to internal libraries and team documentation efforts."
+
+  - type: education
+    title: "Education"
+    items:
+      - degree: "BS Information Technology"
+        school: "University of the Philippines"
+        location: "Diliman, Quezon City"
+        period: "2014 – 2018"
+
+  - type: skills
+    title: "Technical Skills"
+    items:
+      - "JavaScript / TypeScript"
+      - "React / Angular / Vue"
+      - "Node.js / Deno"
+      - "PostgreSQL / MongoDB"
+      - "Docker / Kubernetes"
+      - "CI/CD (GitHub Actions, Jenkins)"
+
+  - type: projects
+    title: "Projects"
+    items:
+      - name: "DevTracker"
+        url: "https://github.com/juandelacruz/devtracker"
+        description: "An open-source task management tool for developers built with Deno and Fresh."
+
+  - type: certifications
+    title: "Certifications"
+    items:
+      - name: "AWS Certified Developer – Associate"
+        year: "2023"
+      - name: "Google Professional Cloud Developer"
+        year: "2022"
+
+  - type: languages
+    title: "Languages"
+    items:
+      - name: "English"
+        level: "Professional Proficiency"
+      - name: "Filipino"
+        level: "Native"

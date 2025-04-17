@@ -34,6 +34,4 @@ cms.document({
   ],
 });
 
-cms.upload("uploads: Uploaded files", "src:uploads");
-
 export default cms;
