@@ -2,7 +2,7 @@
   "imports": {
     "lume/": "https://deno.land/x/lume@v2.5.3/",
     "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.11.3/",
-    "lume/jsx-runtime": "https://deno.land/x/ssx@v0.1.8/jsx-runtime.ts"
+    "theme/": "../"
   },
   "lock": false,
   "tasks": {
@@ -16,9 +16,7 @@
     }
   },
   "compilerOptions": {
-    "types": ["lume/types.ts"],
-    "jsx": "react-jsx",
-    "jsxImportSource": "lume"
+    "types": ["lume/types.ts"]
   },
   "exclude": ["./_site"],
   "unstable": ["temporal"]

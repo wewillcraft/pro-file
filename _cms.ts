@@ -4,34 +4,26 @@ const cms = CMS();
 
 cms.document({
   name: "Site settings",
-  description: "Default settings for the site",
+  description: "Edit the settings for the site",
   store: "src:_data.yml",
   fields: [
-    "lang: text",
     {
-      name: "metas",
+      name: "site",
       type: "object",
       fields: [
-        "site: text",
-        "twitter: text",
-        "fediverse: text",
-        "icon: file",
-        "lang: hidden",
-        "generator: checkbox",
+        "lang: text",
+        "title: text",
+        "description: text",
       ],
     },
   ],
 });
 
 cms.document({
-  name: "Homepage",
-  description: "Main page of the site",
-  store: "src:index.vto",
-  fields: [
-    "layout: hidden",
-    "title: text",
-    "content: code",
-  ],
+  name: "Profile",
+  description: "Edit the content of the user's professional profile",
+  store: "src:index.yml",
+  fields: [],
 });
 
 export default cms;

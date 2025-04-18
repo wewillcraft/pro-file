@@ -1,12 +1,20 @@
 # pro-file
 
-A theme for [Lume](https://lume.land).
+A theme for [Lume](https://lume.land) to easily build your professional profile.
 
 ## Running Locally
 
 ```bash
-deno task serve  # to start a local server
+# go to the test project directory
+cd test
+
+# start a local server
+deno task serve
 ```
+
+## Testing Locally
+
+If the above command works, then that means the theme is working correctly.
 
 ## Contributing
 
