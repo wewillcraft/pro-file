@@ -16,6 +16,16 @@ deno task serve
 
 If the above command works, then that means the theme is working correctly.
 
+## Running the CMS Locally
+
+```bash
+# go to the test project directory
+cd test
+
+# start the cms server
+deno task cms
+```
+
 ## Contributing
 
 **Imposter syndrome disclaimer**: We want your help. No, really.
