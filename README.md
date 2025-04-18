@@ -1,6 +1,8 @@
 # pro-file
 
-A theme for [Lume](https://lume.land) to easily build your professional profile.
+A theme for [Lume](https://lume.land) to easily build your professional profile online.
+
+See it live at https://pro-file.willcraft.software/.
 
 ## Running Locally
 
